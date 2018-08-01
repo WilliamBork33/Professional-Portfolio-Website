@@ -17,7 +17,7 @@
 <div class="container-fluid">
 
     <!-- Row for page title and subtitle -->
-    <div class="row" id="title-row">
+    <div class="row" id="title-row-teacher">
         <div class="col-md-12">
             <div class="title-div">
                 <h1>William Bork</h1>
@@ -32,26 +32,26 @@
                 <a href="https://github.com/WilliamBork33" target="_blank" class="icon-github">
                     <i class="fab fa-github"></i>     
                 </a>
-                <a href="https://www.youtube.com/watch?v=rCylqBqW0ls&list=PLApyRA4dpS2Pgy6whH8TfDPZfJzZp__7Y" target="_blank" class="icon-github">
+                <a href="https://www.youtube.com/user/WilliamNAaronBork/videos" target="_blank" class="icon-youtube">
                     <i class="fab fa-youtube"></i>    
                 </a>
-                <a href="https://www.linkedin.com/in/william-n-aaron-bork-aa865152/" target="_blank" class="icon-github">
+                <a href="https://www.linkedin.com/in/william-n-aaron-bork-aa865152/" target="_blank" class="icon-linkedin">
                     <i class="fab fa-linkedin"></i>    
                 </a>       
             </div>
+
+            <!-- Row for navigation buttons -->
+            <div class="row" id="nav-row">
+                <div class="col-md-12">
+                    <a class="btn btn-outline-dark btn-lg" href="index.html" id="btn-nav" role="button"><h6>Home</h6></a>
+                    <a class="btn btn-outline-dark btn-lg" href="about.html" id="btn-nav" role="button"><h6>About</h6></a>
+                    <a class="btn btn-outline-dark btn-lg" href="teacher.html" id="btn-nav" role="button"><h6>Teacher</h6></a>
+                    <a class="btn btn-outline-dark btn-lg" href="researcher.html" id="btn-nav" role="button"><h6>Researcher</h6></a>
+                    <a class="btn btn-outline-dark btn-lg" href="webdeveloper.html" id="btn-nav" role="button"><h6>Web Dev</h6></a>   
+                </div>
+            </div>
         </div>
     </div>
-
-    <br>
-
-    <!-- Row for navigation buttons -->
-    <row class="row" id="nav-row">
-        <div class="col-md-12">
-            <a class="btn btn-outline-dark btn-lg" href="newindex.html" id="btn-nav" role="button"><h6>Home</h6></a>
-            <a class="btn btn-outline-dark btn-lg" href="researcher.html" id="btn-nav" role="button"><h6>Researcher</h6></a>
-            <a class="btn btn-outline-dark btn-lg" href="webdeveloper.html" id="btn-nav" role="button"><h6>Web Dev</h6></a>
-        </div>
-    </row>
 
     <br>
 
@@ -65,6 +65,7 @@
         <div class="col-md-5"><p id="p-portfolio">Teaching Videos</p>        
             <!-- Iframe for Video -->
             <iframe width="560" height="315" src="https://www.youtube.com/embed/rCylqBqW0ls" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <!-- Link for CV -->
             <p id="william-signature">- William N. Aaron Bork: <a href="https://drive.google.com/open?id=19FcC80sZFRo8b5jOW09JaAkvANyzigF1">Curriculum Vitae (06.01.18).pdf</a></p>
         </div>
         
@@ -74,72 +75,72 @@
             <div id="accordion"><p id="p-portfolio">Relevant Skills</p>                
                 <!-- K-12 Education Leadership Card -->
                 <div class="card">
-                    <div class="card-header" id="headingTwo">
+                    <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">K-12 Education Leadership</button>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">K-12 Education Leadership</button>
                         </h5>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">Teacher Development & Evaluation / School Community Relations / Education Law / Curriculum & Instructional Leadership / Culture Building / Human Capital Management / Financial Resources Planning & Budgeting.</div>
                     </div>
                 </div>
     
                 <!-- Educational Technology Card -->
                 <div class="card">
-                    <div class="card-header" id="headingThree">
+                    <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
-                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Educational Technology</button>
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">Educational Technology</button>
                         </h5>
                     </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body"> 1-to-1 Device Classrooms / Robotics (Dot & Dash, Sphero) / Schoology LMS / SMART Board / Educational Applications (Code.org, Code Avengers, Nearpod, Kahoot, IXL.com, Read Theory, and more...).</div>
                     </div>
                 </div>
 
                 <!-- Curriculum Design, Lesson Planning, & Teaching Card -->
                 <div class="card">
-                    <div class="card-header" id="headingFour">
+                    <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Curriculum Design, Lesson Planning, & Teaching</button>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Curriculum Design, Lesson Planning, & Teaching</button>
                         </h5>
                     </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                         <div class="card-body">Mathematics / Science / Programming (Visual Programming Languages, CSS, HTML, JavaScript) / Foreign Language / Bilingual Education / Literacy / ENL / Multicultural Education / Human Movement, Fitness, & Sport Education / Student Leadership Skills.</div>
                     </div>
                 </div>
 
                 <!-- Teacher Training Card -->
                 <div class="card">
-                    <div class="card-header" id="headingFive">
+                    <div class="card-header" id="headingFour">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Teacher Training</button>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Teacher Training</button>
                         </h5>
                     </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">Classroom Systems / Space & Materials Organization / Behavior Management / Curriculum Design / Online & Traditional Lesson Planning / Instructional Coaching.</div>
                     </div>
                 </div>
 
                 <!-- Fundraising Card -->
                 <div class="card">
-                    <div class="card-header" id="headingEight">
+                    <div class="card-header" id="headingFive">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">Fundraising</button>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Fundraising</button>
                         </h5>
                     </div>
-                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                         <div class="card-body">Grant Writing & Crowdsource Funding.</div>
                     </div>
                 </div>
     
                 <!-- Languages Card -->
                 <div class="card">
-                    <div class="card-header" id="headingNine">
+                    <div class="card-header" id="headingSix">
                         <h5 class="mb-0">
-                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">Languages</button>
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Languages</button>
                         </h5>
                     </div>
-                    <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                         <div class="card-body">English (native) / Spanish (advanced) / Mandarin Chinese (novice).</div>
                     </div>
                 </div>
