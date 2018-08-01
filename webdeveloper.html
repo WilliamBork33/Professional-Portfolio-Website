@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Professional Portfolio Website</title>
+
+    <!-- Linking to Bootstrap CDN and CSS Styles Sheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
+</head>
+
+<body>
+<!-- Responsive Content Container -->
+<div class="container-fluid">
+
+    <!-- Row for page title and subtitle -->
+    <div class="row" id="title-row-webdeveloper">
+        <div class="col-md-12">
+            <div class="title-div">
+                <h1>William Bork</h1>
+                <h2>Web Developer<h2>
+            </div>
+
+             <!-- Social Media Links -->
+             <div class="social-links">                
+                <a href="https://twitter.com/williambork" target="_blank" class="icon-twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://github.com/WilliamBork33" target="_blank" class="icon-github">
+                    <i class="fab fa-github"></i>     
+                </a>
+                <a href="https://www.youtube.com/user/WilliamNAaronBork/videos" target="_blank" class="icon-youtube">
+                    <i class="fab fa-youtube"></i>    
+                </a>
+                <a href="https://www.linkedin.com/in/william-n-aaron-bork-aa865152/" target="_blank" class="icon-linkedin">
+                    <i class="fab fa-linkedin"></i>    
+                </a>       
+            </div>
+
+            <!-- Row for navigation buttons -->
+            <div class="row" id="nav-row">
+                <div class="col-md-12">
+                    <a class="btn btn-outline-dark btn-lg" href="index.html" id="btn-nav" role="button"><h6>Home</h6></a>
+                    <a class="btn btn-outline-dark btn-lg" href="about.html" id="btn-nav" role="button"><h6>About</h6></a>
+                    <a class="btn btn-outline-dark btn-lg" href="teacher.html" id="btn-nav" role="button"><h6>Teacher</h6></a>
+                    <a class="btn btn-outline-dark btn-lg" href="researcher.html" id="btn-nav" role="button"><h6>Researcher</h6></a>
+                    <a class="btn btn-outline-dark btn-lg" href="webdeveloper.html" id="btn-nav" role="button"><h6>Web Dev</h6></a>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Row for Skills Accordion Component -->
+    <div class="row">
+
+        <!-- Column for Spacing -->
+        <div class="col-md-1"></div>
+        
+        <!-- Column for Image Card -->
+        <div class="col-md-5"><p id="p-portfolio">Github Profile</p>        
+            <!-- Github Profile Image Card -->
+            <div class="card">
+                <img class="card-img-top" src="assets/images/github.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Repository for my source code.</p>
+                    <a href="https://github.com/WilliamBork33" class="btn btn-portfolio">Take a Look</a>
+                </div>
+            </div>
+            <!-- Link for CV -->
+            <p id="william-signature">- William N. Aaron Bork: <a href="https://drive.google.com/open?id=19FcC80sZFRo8b5jOW09JaAkvANyzigF1">Technical Resume (06.01.18).pdf</a></p>
+        </div>
+        
+        
+        <!-- Column for Accordion Component -->
+        <div class="col-md-5">    
+            <!-- Accordion Component -->
+            <div id="accordion"><p id="p-portfolio">Relevant Skills</p>
+                <!-- Programming Languages Card -->
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Programming Languages</button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">JavaScript, JQuery, HTML5, CSS3</div>
+                    </div>
+                </div>
+
+                <!-- Frameworks Card -->
+                <div class="card" id="accordianSkills">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Frameworks</button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">Bootstrap, Node, Express, Sequelize, Ajax, Handlebars, Git,</div>
+                    </div>
+                </div>
+
+                <!-- Platforms Card -->
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Platforms</button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">Github, Gitlab, Linux, Windows, MacOS</div>
+                    </div>
+                </div>
+
+                <!-- Software Applications -->
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Software Applications</button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">APIs, Responsive Web Apps, User Authentication</div>
+                    </div>
+                </div>
+
+                <!-- Database Management Card -->
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Database Management</button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                        <div class="card-body">Firebase, MySQL</div>
+                    </div>
+                </div>
+                
+                <!-- Deployment Card -->
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Deployment</button>
+                        </h5>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                        <div class="card-body">Self-Hosting, Github PagesEnglish (native) / Spanish (advanced) / Mandarin Chinese (novice).</div>
+                    </div>
+                </div>
+
+                 <!-- Languages Card -->
+                 <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Languages</button>
+                        </h5>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                        <div class="card-body">English (native) / Spanish (advanced) / Mandarin Chinese (novice).</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Column for Spacing -->
+        <div class="col-md-1"></div>
+            
+    </div>
+
+    <br><br>
+
+    <!-- Row for Recent Works Text -->
+    <div class="row">
+        <!-- Column for Spacing -->
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <div class="page-content">
+                <p id="p-portfolio">Recent Works</p>
+            </div>
+        </div>
+        <!-- Column for Spacing -->
+        <div class="col-md-2"></div>
+    </div>
+
+    <!-- Row for Portfolio Cards -->
+    <div class="row">
+
+        <!-- Column for Spacing -->
+        <div class="col-md-2"></div>
+
+            <!-- Cards for Recent Works -->
+            <div class="col-md">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top" src="assets/images/portfolio-screenshot.PNG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">A static portfolio website. Built with HTML, CSS, and Bootstrap.</p>
+                        <br>
+                        <a href="https://williambork33.github.io/ProfessionalPortfolioWebsite/" class="btn btn-portfolio">Take a Look</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards for Recent Works -->
+            <div class="col-md">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top" src="assets/images/crystalcollector-screenshot.PNG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Crystal Collector Game</h5>
+                        <p class="card-text">A game inspired by Blackjack. Try to match a number without going over! Built with HTML, CSS, and JavaScript.</p>
+                        <a href="https://williambork33.github.io/CrystalCollectorGame/" class="btn btn-portfolio">Take a Look</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards for Recent Works -->
+            <div class="col-md">
+                <div class="card" style="width: 16rem;">
+                    <img class="card-img-top" src="assets/images/rockpaperscissors-screenshot.PNG" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Rock Paper Scissors</h5>
+                        <p class="card-text">A classic game of Rock, Paper, Scissors. Built with HTML, CSS, Bootstrap, JavaScript, and jQuery.</p>
+                        <a href="https://williambork33.github.io/RockPaperScissors/" class="btn btn-portfolio">Take a Look</a>
+                    </div>
+                </div>
+            </div>
+    
+        <!-- Column for Spacing -->
+        <div class="col-md-2"></div>
+
+    </div>
+</div>
+
+    <!-- Linking to Bootstrap's JavaScript and jQuery CDNs -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

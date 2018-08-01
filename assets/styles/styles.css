@@ -7,22 +7,80 @@
 }
 
 #title-row {
-    background-color: slategray;
-    outline-style: double;
-    outline-color: black;
-    outline-width: 5px;
-    
+    background-color: slategray;    
+    border-bottom-style: double;
+    border-bottom-color: black;
+    border-bottom-width: 10px;
+}
+
+#title-row-researcher {
+    background-color: #18453B;   
+    border-bottom-style: double;
+    border-bottom-color: black;
+    border-bottom-width: 10px;
+    color: whitesmoke;
+}
+
+#title-row-teacher {
+    background-color: #13294B;    
+    border-bottom-style: double;
+    border-bottom-color: black;
+    border-bottom-width: 10px;
+    color: whitesmoke;
+}
+
+#title-row-webdeveloper {
+    background-color: #003399;    
+    border-bottom-style: double;
+    border-bottom-color: black;
+    border-bottom-width: 10px;
+    color: whitesmoke;
 }
 
 #nav-row {
     height: 50px;
     line-height: 50px;
     text-align: center;
+    background-color: transparent;
+}
+
+#btn-nav {
+    width: 120px;
+    height: 40px;
     background-color: whitesmoke;
 }
 
-.btn {
-    width: 70px;
+#btn-index-researcher {
+    width: 200px;
+    height: 45px;
+    color: whitesmoke;
+    background-color: #18453B;
+}
+
+#btn-index-teacher {
+    width: 200px;
+    height: 45px;
+    color: whitesmoke;
+    background-color: #13294B;
+}
+
+#btn-index-webdeveloper {
+    width: 200px;
+    height: 45px;
+    color: whitesmoke;
+    background-color: #003399;
+}
+
+.card-group {
+    height: 400px;
+}
+
+#card-img-index {
+    height: 600px;
+}
+
+.card-body {
+    text-align: center;
 }
 
 .btn-portfolio {
@@ -37,6 +95,8 @@ h1 {
     font-size: 45px;
     font-weight: 500;
     padding-top: 10px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
 }
 
 h2 {
@@ -44,16 +104,12 @@ h2 {
     font-size: 20px;
     font-weight: 400;
     font-style: italic;
-}
-
-h3 {
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration-line: underline;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
 }
 
 #william-signature, #william-cv {
-   text-align: right;
+   text-align: left;
 }
 
 .social-links {
@@ -61,18 +117,18 @@ h3 {
 }
 
 .fab {
-    color: black;
+    color: whitesmoke;
     height: 50px;
     line-height: 50px;
     padding-left: 5px;
     padding-right: 5px;
+    text-shadow: 2px 2px black;
 }
 
 #nav-link {
     font-size: 18px;
     font-weight: 500;
     color: black;
-
 }
 
 #p-portfolio {
