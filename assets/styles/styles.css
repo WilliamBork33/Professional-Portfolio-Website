@@ -7,11 +7,10 @@
 }
 
 #title-row {
-    background-color: slategray;
-    outline-style: double;
-    outline-color: black;
-    outline-width: 5px;
-    
+    background-color: slategray;    
+    border-bottom-style: double;
+    border-bottom-color: black;
+    border-bottom-width: 10px;
 }
 
 #nav-row {
@@ -21,9 +20,32 @@
     background-color: whitesmoke;
 }
 
-.btn {
-    width: 70px;
+#btn-nav {
+    width: 120px;
+    height: 40px;
 }
+
+
+#btn-index {
+    width: 200px;
+    height: 45px;
+}
+
+
+.card-group {
+    height: 400px;
+}
+
+#card-img-index {
+    height: 600px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+
 
 .btn-portfolio {
     width: 110px;
@@ -53,7 +75,7 @@ h3 {
 }
 
 #william-signature, #william-cv {
-   text-align: right;
+   text-align: left;
 }
 
 .social-links {
@@ -72,7 +94,6 @@ h3 {
     font-size: 18px;
     font-weight: 500;
     color: black;
-
 }
 
 #p-portfolio {
