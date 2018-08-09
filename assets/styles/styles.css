@@ -38,16 +38,25 @@
 }
 
 #nav-row {
-    height: 50px;
-    line-height: 50px;
     text-align: center;
     background-color: transparent;
 }
 
+/* Nav buttons */
 #btn-nav {
     width: 120px;
     height: 40px;
     background-color: whitesmoke;
+    outline-style: auto;
+    outline-color: black;
+    text-align: center;
+    color: black;
+}
+
+/* Nav bar background */
+.nav-pills {
+    background-color: transparent;
+    justify-content: center;
 }
 
 #btn-index-researcher {
