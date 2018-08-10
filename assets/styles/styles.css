@@ -1,11 +1,42 @@
+/* Webpage Background Color */
 .container-fluid {
     background-color: whitesmoke;
 }
 
+/* Standard Row Color */
 .row {
-    background-color: whitesmoke;
+    background-color: transparent;
 }
 
+/* Text Formatting */
+h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 10px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+/* Text Formatting */
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+/* Text Formatting */
+h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+/* Page Header */
 #title-row {
     background-color: slategray;    
     border-bottom-style: double;
@@ -13,6 +44,7 @@
     border-bottom-width: 10px;
 }
 
+/* Page Header */
 #title-row-researcher {
     background-color: #18453B;   
     border-bottom-style: double;
@@ -21,6 +53,7 @@
     color: whitesmoke;
 }
 
+/* Page Header */
 #title-row-teacher {
     background-color: #13294B;    
     border-bottom-style: double;
@@ -29,6 +62,7 @@
     color: whitesmoke;
 }
 
+/* Page Header */
 #title-row-webdeveloper {
     background-color: #003399;    
     border-bottom-style: double;
@@ -37,6 +71,22 @@
     color: whitesmoke;
 }
 
+/* Social Media Links */
+.social-links {
+    text-align: center;
+ }
+ 
+/* Icon for Social Media Links */
+.fab {
+    color: whitesmoke;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-shadow: 2px 2px black;
+}
+
+/* Row containing nav elements */
 #nav-row {
     text-align: center;
     background-color: transparent;
@@ -53,103 +103,73 @@
     color: black;
 }
 
-/* Nav bar background */
-.nav-pills {
-    background-color: transparent;
-    justify-content: center;
-}
-
+/* Index button to go to researcher page */
 #btn-index-researcher {
     width: 200px;
     height: 45px;
     color: whitesmoke;
     background-color: #18453B;
+    border-color: black;
 }
 
+/* Index button to go to teacher page */
 #btn-index-teacher {
     width: 200px;
     height: 45px;
     color: whitesmoke;
     background-color: #13294B;
+    border-color: black;
 }
 
+/* Index button to go to web dev page */
 #btn-index-webdeveloper {
     width: 200px;
     height: 45px;
     color: whitesmoke;
     background-color: #003399;
+    border-color: black;
 }
 
-.card-group {
+/* All card bodies (including index) */
+.card-body {
+    text-align: center;
+    outline-style: auto;
+}
+
+#card-recent-works {
+    text-align: center;
+    outline-style: auto;
+}
+
+/* Just the index page cards */
+#card-group-index {
     height: 400px;
 }
 
+/* Images at top of index cards */
 #card-img-index {
     height: 600px;
 }
 
-.card-body {
-    text-align: center;
+/* Images at top of standard cards */
+.card-img-top {
+    outline-style: auto;
 }
 
+/* Portfolio card buttons */
 .btn-portfolio {
     width: 110px;
     color: #fff;
     background-color: #007bff;
-    border-color: #007bff;
+    border-color: black;
 }
 
-h1 {
-    text-align: center;
-    font-size: 45px;
-    font-weight: 500;
-    padding-top: 10px;
-    color: whitesmoke;
-    text-shadow: 2px 2px black;
-}
-
-h2 {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: italic;
-    color: whitesmoke;
-    text-shadow: 2px 2px black;
-}
-
+/* Name next to CV/Resume links */
 #william-signature, #william-cv {
    text-align: left;
 }
 
-.social-links {
-   text-align: center;
-}
-
-.fab {
-    color: whitesmoke;
-    height: 50px;
-    line-height: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-shadow: 2px 2px black;
-}
-
-#nav-link {
-    font-size: 18px;
-    font-weight: 500;
-    color: black;
-}
-
-#p-portfolio {
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    font-style: italic;
-    text-decoration-line: underline;
-}
-
-
-/* To make YouTube video iframe fluid */
+/* Container make YouTube video iframe fluid */
 .intrinsic-container {
     position: relative;
     height: 0;
@@ -165,7 +185,8 @@ h2 {
   .intrinsic-container-4x3 {
     padding-bottom: 75%;
   }
-   
+
+   /* Iframe */
   .intrinsic-container iframe {
     position: absolute;
     top:0;
