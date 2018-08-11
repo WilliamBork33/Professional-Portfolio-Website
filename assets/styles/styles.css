@@ -146,11 +146,6 @@ h3 {
     height: 400px;
 }
 
-/* Images at top of index cards */
-#card-img-index {
-    
-}
-
 /* Images at top of standard cards */
 .card-img-top {
     outline-style: auto;
@@ -195,13 +190,27 @@ h3 {
     height: 100%;
   }
 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+/* Footer */
+.footer {
+    position: inherit;
+    height: 45px;
+    text-align: center;
+    font-size: 10px;
     background-color: slategray;
     border-top-style: double;
     border-top-color: black;
     border-top-width: 10px;
- }
+}
+
+/* Footer */
+#footer-index {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: slategray;
+    border-top-style: double;
+    border-top-color: black;
+    border-top-width: 10px;
+}
