@@ -109,7 +109,9 @@ h3 {
     height: 45px;
     color: whitesmoke;
     background-color: #18453B;
+    border-style: solid;
     border-color: black;
+    border-width: 2px;
 }
 
 /* Index button to go to teacher page */
@@ -118,7 +120,9 @@ h3 {
     height: 45px;
     color: whitesmoke;
     background-color: #13294B;
+    border-style: solid;
     border-color: black;
+    border-width: 2px;
 }
 
 /* Index button to go to web dev page */
@@ -127,28 +131,59 @@ h3 {
     height: 45px;
     color: whitesmoke;
     background-color: #003399;
+    border-style: solid;
     border-color: black;
+    border-width: 2px;
 }
 
-/* All card bodies (including index) */
-.card-body {
-    text-align: center;
-    outline-style: auto;
+/* YouTube Video Iframe */
+#iframe {
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
 }
 
-#card-recent-works {
-    text-align: center;
-    outline-style: auto;
-}
-
-/* Just the index page cards */
+/* Card Group (just index) */
 #card-group-index {
     height: 400px;
 }
 
-/* Images at top of standard cards */
+/* Card Bodies (just index) */
+#card-body-index {
+    border-style: none;
+}
+
+/* Card Body Images (just index) */
+#card-img-top-index {
+    border-style: none;
+}
+
+/* Card Bodies (excluding index) */
+.card-body {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+}
+
+/* Card Bodies (accordion only) */
+#card-body-accordion {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+/* Card Bodies Images (exculding index) */
 .card-img-top {
-    outline-style: auto;
+    border-style: solid;
+    border-color: black;
+    border-bottom: 0px;
+}
+
+/* Card Bodies (just recent works) */
+#card-recent-works {
+    text-align: center;
 }
 
 /* Portfolio card buttons */
@@ -190,13 +225,19 @@ h3 {
     height: 100%;
   }
 
+/* Accordion Elements */
+#accordion {
+    border-style: solid;
+    border-color: black;
+}
+
 /* Footer */
 .footer {
+    color: white;
     position: inherit;
     height: 45px;
     text-align: center;
     font-size: 10px;
-    background-color: slategray;
     border-top-style: double;
     border-top-color: black;
     border-top-width: 10px;
