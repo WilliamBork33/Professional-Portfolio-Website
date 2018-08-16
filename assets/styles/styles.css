@@ -144,6 +144,17 @@ h3 {
     color: black;
 }
 
+/* Nav buttons */
+#btn-nav-index {
+    width: 120px;
+    height: 40px;
+    background-color: gray;
+    outline-style: auto;
+    outline-color: black;
+    text-align: center;
+    color: black;
+}
+
 /* Index button to go to researcher page */
 #btn-index-researcher {
     width: 200px;
@@ -177,7 +188,7 @@ h3 {
     border-width: 2px;
 }
 
-/* Index button to go to web dev page */
+/* Index button to go to about page */
 #btn-index-about {
     width: 200px;
     height: 45px;
