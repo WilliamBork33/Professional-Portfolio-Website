@@ -177,6 +177,17 @@ h3 {
     border-width: 2px;
 }
 
+/* Index button to go to web dev page */
+#btn-index-about {
+    width: 200px;
+    height: 45px;
+    color: whitesmoke;
+    background-color: slategray;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
 /* YouTube Video Iframe */
 #iframe {
     border-style: solid;
@@ -271,7 +282,7 @@ h3 {
 
 /* Footer on Index Page */
 #footer-index {
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
